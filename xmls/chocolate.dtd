@@ -1,0 +1,10 @@
+<|DOCTYPE Chocolate[
+         <!ELEMENT chocolate (type, cocoa, flavors, units, shape)>
+         <!ATTLIST chocolate name CDATA #REQUIRED>
+         <!ELEMENT type (#PCDATA)>
+         <!ELEMENT cocoa (#PCDATA)>
+         <!ELEMENT flavors(#PCDATA)>
+         <!ELEMENT units (#PCDATA)>
+         <!ELEMENT shape (#PCDATA)>
+    
+]>
